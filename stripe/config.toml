@@ -1,0 +1,7 @@
+color = ''
+project-name = 'default'
+[default]
+device_name = 'Dmytros-MacBook-Air.local'
+test_mode_api_key = 'sk_test_51MyEOHH39vzUNybl2c7IvKmAUCTTYnE7XfMzJGJtQJCbdaP14nprF5wiB57BlwJZaTxTX06MPLXgNvYv71uoxzjs00Jyn1qtel'
+test_mode_key_expires_at = '2023-07-20'
+

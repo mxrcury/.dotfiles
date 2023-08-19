@@ -1,6 +1,10 @@
 local mason_status, mason = pcall(require, "mason")
 if not mason_status then
+<<<<<<< HEAD
   return
+=======
+	return
+>>>>>>> badaad8 (upgraded nvim)
 end
 
 local mason_lspconfig_status, mason_lspconfig = pcall(require, "mason-lspconfig")
@@ -17,30 +21,30 @@ end
 mason.setup()
 
 mason_lspconfig.setup({
-  ensure_installed = {
-    "tsserver",
-    "html",
-    "cssls",
-    "lua_ls",
-    "clangd",
-    "cmake",
- --   "gopls",
-    "marksman",
-    "prismals",
-    "pylsp",
-    "sqlls"
-  },
+	ensure_installed = {
+		"tsserver",
+		"html",
+		"cssls",
+		"lua_ls",
+		"clangd",
+		"cmake",
+		"gopls",
+		"marksman",
+		"prismals",
+		"pylsp",
+		"sqlls",
+	},
 
-  automatic_installation = true, -- not the same as ensure_installed
+	automatic_installation = true, -- not the same as ensure_installed
 })
 
 mason_null_ls.setup({
-  -- list of formatters & linters for mason to install
-  ensure_installed = {
-    "prettier", -- ts/js formatter
-    "stylua", -- lua formatter
-    "eslint_d", -- ts/js linter
-  },
-  -- auto-install configured formatters & linters (with null-ls)
-  automatic_installation = true,
+	-- list of formatters & linters for mason to install
+	ensure_installed = {
+		"prettier", -- ts/js formatter
+		"stylua", -- lua formatter
+		"eslint_d", -- ts/js linter
+	},
+	-- auto-install configured formatters & linters (with null-ls)
+	automatic_installation = true,
 })

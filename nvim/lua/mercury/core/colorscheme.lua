@@ -1,6 +1,5 @@
-local status, _ = pcall(vim.cmd, "colorscheme lighthaus")
+local status, _ = pcall(vim.cmd, "colorscheme catppuccin")
 
 if not status then
-  print("Colorscheme not found.")
-  return
-end
+	print("Colorscheme not found.")
+	return

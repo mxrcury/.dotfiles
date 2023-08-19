@@ -36,6 +36,10 @@ return packer.startup(function(use)
 	-- color schemas
 	use("bluz71/vim-nightfly-guicolors") -- preferred colorscheme
 	use("lighthaus-theme/vim-lighthaus")
+	
+	use("oxfist/night-owl.nvim")
+	use("catppuccin/nvim")
+	-- use("rose-pine/neovim")
 
 	use("christoomey/vim-tmux-navigator") -- tmux & split window navigation
 

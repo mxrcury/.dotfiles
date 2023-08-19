@@ -36,6 +36,12 @@ treesitter.setup({
 		"sql",
 		"c",
 		"cpp",
+		"go",
+		"gomod",
+		"gosum",
+		"gomod",
+		"gowork",
+		"graphql"
 	},
 	-- auto install above language parsers
 	auto_install = true,
