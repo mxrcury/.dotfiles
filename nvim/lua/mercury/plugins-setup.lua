@@ -38,7 +38,8 @@ return packer.startup(function(use)
 	use("lighthaus-theme/vim-lighthaus")
 	use("oxfist/night-owl.nvim")
 	use("catppuccin/nvim")
-	-- use("rose-pine/neovim")
+	use("zaki/zazen")
+	use("rose-pine/neovim")
 
 	use("christoomey/vim-tmux-navigator") -- tmux & split window navigation
 
