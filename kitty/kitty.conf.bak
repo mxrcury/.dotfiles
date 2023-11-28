@@ -1,12 +1,12 @@
 # include /theme.conf
 font_size 22
-font_family FiraCode Nerd Font 
-# background #1a1a1a
+font FiraCode Nerd Font Mono Med:size=22
+background #1a1a1a
 #background_image /Users/dhonch/wallpapers/darker2.png
 background_opacity 0.9
 
 
 # BEGIN_KITTY_THEME
-# Flexoki (Dark)
+# Rosé Pine
 include current-theme.conf
 # END_KITTY_THEME
