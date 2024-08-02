@@ -1,0 +1,14 @@
+window:
+  opacity: 0.9
+
+font:
+  size: 24.0
+  normal:
+    family: "FiraCode Nerd Font"
+    style: Regular
+  bold:
+    family: "FiraCode Nerd Font"
+    style: Bold
+  italic:
+    family: "FiraCode Nerd Font"
+    style: Italic
